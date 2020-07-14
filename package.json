@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.12",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/googlemaps": "^3.39.8",
+    "faker": "^4.1.0"
+  }
+}
