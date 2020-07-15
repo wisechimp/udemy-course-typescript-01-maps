@@ -1,6 +1,6 @@
 import {} from 'googlemaps'
 
-// Instructions to toher classes wo they can interact with the Map
+// Instructions to other classes wo they can interact with the Map
 interface BeMappable {
 	location: {
 		lat: number
@@ -12,7 +12,7 @@ export class CustomMap {
 	private googleMap: google.maps.Map
 
 	constructor(mapId: string) {
-		new google.maps.Map(document.getElementById(mapId), {
+		this.googleMap = new google.maps.Map(document.getElementById(mapId), {
 			center: {
 				lat: 0,
 				lng: 0,
