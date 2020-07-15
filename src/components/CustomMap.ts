@@ -1,7 +1,7 @@
 import {} from 'googlemaps'
 
 // Instructions to other classes wo they can interact with the Map
-interface BeMappable {
+export interface BeMappable {
 	location: {
 		lat: number
 		lng: number

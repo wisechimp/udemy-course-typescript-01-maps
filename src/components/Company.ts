@@ -1,6 +1,7 @@
 import faker, { fake } from 'faker'
+import { BeMappable } from './CustomMap'
 
-export class Company {
+export class Company implements BeMappable {
 	companyName: string
 	catchPhrase: string
 	location: {

@@ -1,6 +1,7 @@
 import faker from 'faker'
+import { BeMappable } from './CustomMap'
 
-export class User {
+export class User implements BeMappable {
 	name: string
 	location: {
 		lat: number
